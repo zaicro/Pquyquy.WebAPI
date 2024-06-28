@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>Pquyquy.WebAPI</AssemblyName>
+		<AssemblyTitle>Pquyquy.WebAPI Library</AssemblyTitle>
+		<Product>Pquyquy.WebAPI Library</Product>
+		<RootNamespace>Pquyquy.WebAPI</RootNamespace>
+		<Authors>Andres Martinez</Authors>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Library containing common resource models</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Asp.Versioning.Abstractions" Version="7.0.0" />
+	  <PackageReference Include="Asp.Versioning.Mvc" Version="7.1.1" />
+	  <PackageReference Include="Pquyquy.Application" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
